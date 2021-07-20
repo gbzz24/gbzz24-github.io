@@ -8,18 +8,34 @@
     <link rel="shortcut icon" href="/assets/img/logo.png">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/contact.css">
+    
         <!-----------------------------------------FONT AWESOME--------------------------------------------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     
+
+    <!-----------------------------------------MENU---------------------------------------------->
+    <button class="menu-toggle"></button>
+    <nav>
+      <ul class="menu">
+        <a href="../index.html"><li data-text="Home">Home</li></a>
+        <a href="../pages/works.html"><li data-text="Works">Works</li></a>
+        <a href="../pages/about.html"><li data-text="About">About</li></a>
+        <a href="../pages/products.html"><li data-text="Contact">Products</li></a>
+      </ul>
+    </nav>  
    
+    
+    <!-----------------------------------------FONDO---------------------------------------------->
     <video src="/assets/img/fondo1.mp4" autoplay loop playsinline muted></video>
     <div class="cuerpoContact viewport-header">
+
+    <!-----------------------------------------FONDO---------------------------------------------->    
         <section id="contact">
     
-            <h1 class="section-header">Contact</h1>
+            <h1 class="section-header">SAY HI!</h1>
             
             <div class="contact-wrapper">
             
@@ -60,7 +76,7 @@
         
                 <hr>
                 <ul class="social-media-list">
-                    <li><a href="#" target="_blank" class="contact-icon">
+                    <li><a href="" target="_blank" class="contact-icon">
                         <i class="fab fa-instagram"></i></a>
                     </li>
                     <li><a href="whatsapp://send?abid=+5491122503184&text=Hello%2C%20World!" target="_blank" class="contact-icon">
@@ -69,7 +85,7 @@
                     <li><a href="https://www.linkedin.com/in/progabriels/" target="_blank" class="contact-icon">
                         <i class="fab fa-linkedin"></i></a>
                     </li>
-                    <li><a href="#" target="_blank" class="contact-icon">
+                    <li><a href="https://github.com/gbzz24" target="_blank" class="contact-icon">
                         <i class="fab fa-github"></i></a>
                     </li>       
                 </ul>
@@ -83,9 +99,13 @@
 
     
 
-<script src="/assets/Js/main.js"></script>
 <script src="/assets/Js/jquery.min.js"></script>
 <script src="/assets/Js/bootstrap.min.js"></script>
+<script>
+    $('.menu-toggle').on('click', function(){
+  $('body').toggleClass('open');
+   });
+</script>
 <script> 
     document.querySelector('#contact-form').addEventListener('submit', (e) => {
     e.preventDefault();
