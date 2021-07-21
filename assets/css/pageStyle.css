@@ -34,8 +34,7 @@ section:not(.first) {
 } 
 
 .blue {
-  background-color: #2c7ad2;
-  background-image: url(/assets/img/BA1.svg);
+background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1616%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1617)'%3e%3c/rect%3e%3cpath d='M212.593%2c176.639C245.113%2c178.401%2c277.814%2c162.491%2c292.993%2c133.676C307.383%2c106.357%2c295.452%2c75.071%2c280.254%2c48.193C264.73%2c20.738%2c244.067%2c-6.478%2c212.593%2c-8.512C178.077%2c-10.743%2c143.248%2c7.361%2c127.874%2c38.344C113.705%2c66.899%2c129.34%2c98.527%2c145.992%2c125.709C161.639%2c151.251%2c182.683%2c175.018%2c212.593%2c176.639' fill='rgba(16%2c 200%2c 240%2c 0.59)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M615.266%2c158.774C646.399%2c156.929%2c675.706%2c145.163%2c693.122%2c119.291C713.028%2c89.72%2c726.178%2c51.466%2c708.233%2c20.665C690.366%2c-10.001%2c650.756%2c-14.06%2c615.266%2c-14.34C579.093%2c-14.625%2c539.746%2c-10.947%2c519.721%2c19.178C497.888%2c52.023%2c497.327%2c97.024%2c519.603%2c129.571C539.786%2c159.059%2c579.595%2c160.887%2c615.266%2c158.774' fill='rgba(16%2c 200%2c 240%2c 0.59)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M20.725%2c-2.313C36.824%2c-1.37%2c54.86%2c-2.351%2c63.815%2c-15.763C73.525%2c-30.305%2c71.674%2c-49.88%2c62.37%2c-64.685C53.616%2c-78.614%2c37.161%2c-85.034%2c20.725%2c-84.328C5.519%2c-83.675%2c-7.825%2c-74.695%2c-15.153%2c-61.355C-22.208%2c-48.512%2c-22.034%2c-32.87%2c-14.425%2c-20.348C-7.096%2c-8.286%2c6.635%2c-3.139%2c20.725%2c-2.313' fill='rgba(16%2c 200%2c 240%2c 0.59)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1149.01%2c324.281C1183.747%2c322.486%2c1207.762%2c292.824%2c1223.813%2c261.966C1238.412%2c233.901%2c1241.949%2c201.609%2c1227.446%2c173.494C1211.61%2c142.794%2c1183.534%2c118.13%2c1149.01%2c116.956C1112.638%2c115.719%2c1079.088%2c136.387%2c1060.756%2c167.825C1042.284%2c199.503%2c1041.484%2c238.518%2c1059.5%2c270.457C1077.833%2c302.958%2c1111.745%2c326.207%2c1149.01%2c324.281' fill='rgba(16%2c 200%2c 240%2c 0.59)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M527.198%2c271.398C558.394%2c270.567%2c591.502%2c263.928%2c607.565%2c237.173C624.004%2c209.792%2c617.223%2c175.675%2c601.283%2c148C585.309%2c120.267%2c559.159%2c99.309%2c527.198%2c97.643C492.175%2c95.818%2c456.715%2c109.598%2c438.408%2c139.511C419.357%2c170.64%2c418.674%2c211.387%2c439.056%2c241.662C457.616%2c269.231%2c493.976%2c272.283%2c527.198%2c271.398' fill='rgba(16%2c 200%2c 240%2c 0.59)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1616'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1617'%3e%3cstop stop-color='rgba(57%2c 198%2c 255%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 133%2c 187%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -334,6 +333,11 @@ article {
 
 /*-------------------------------------MENU END----------------------------------------*/
 /*-------------------------------------ABOUT----------------------------------------*/
+.background{
+
+position: absolute;
+}
+
 
 .text{
   margin-top: 2em;
